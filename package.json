@@ -1,0 +1,37 @@
+{
+    "name": "capirca",
+    "displayName": "Capirca Syntax Highlighter",
+    "description": "Unofficial Syntax Highlighter for the Capirca definition files",
+    "publisher": "broadinstitute",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.19.2"
+    },
+    "categories": [
+        "Language Packs"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "capirca",
+                "aliases": [
+                    "Capirca",
+                    "capirca"
+                ],
+                "extensions": [
+                    ".net",
+                    ".pol",
+                    ".svc"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "capirca",
+                "scopeName": "source.capirca",
+                "path": "./Capirca.tmLanguage"
+            }
+        ]
+    }
+}
