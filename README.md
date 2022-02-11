@@ -2,10 +2,7 @@
 
 [Capirca][1] syntax for Sublime Text Editor and VS Code
 
-This repo provides support for the [Workflow Description Language [Capirca][1] in [Sublime Text Editor][2],
-[Visual Studio Code][3], and [GitHub Linguist][4].
-
-This was converted from the Atom syntax highlighter developed [here](https://github.com/facebookincubator/language-capirca)
+This repo provides support for [Capirca][1] in [Sublime Text Editor][2], [Visual Studio Code][3], and [GitHub Linguist][4]. This highlighter was converted from the Atom syntax highlighter developed [here](https://github.com/facebookincubator/language-capirca)
 
 ## Installation
 
